@@ -1,0 +1,389 @@
+/* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    body {
+      padding: 10px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (min-width: 480px) {
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+  }
+
+a {
+    color: #f90000;
+    text-decoration: none;
+    margin-right: 20px;
+   
+}
+
+a img {
+    width: 40px; 
+
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+  
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #ff0000;
+  text-align: center;
+}
+
+#logo {
+    width: 300px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 10px;
+  color: #ffffff;
+  background-color: #00d9ff; /* Button background color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 30px; /* Rounded corners for the buttons */
+  margin-right: 10px; /* Spacing between buttons */
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+  background-color: #f90000;
+}
+
+.body{
+  background-color: #000000;
+}
+.welcome {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.welsub{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 30px 50px; /* Adjust the padding to your preferred size */
+    background-color: #ff0000; /* Button background color */
+    color: #ffffff; /* Text color */
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.button-link:hover{
+  background-color: #0202ff;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #ffffff;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 30px; /* This should be border: none; */
+    border-color: #ff0000;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.button1 {
+  display: inline-block;
+  padding: 15px 100px;
+  background-color: #00f3aa;
+  color: #000000;
+  border-radius: 30px; /* This should be border: none; */
+  border-color: #0800f7;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0202ff;
+}
+
+.button1:hover {
+  background-color: #0202ff;
+}
+
+.button2 {
+  display: inline-block;
+  padding: 15px 100px;
+  background-color: #00f3aa;
+  color: #000000;
+  font-size: 20px;
+  border-radius: 30px; /* This should be border: none; */
+  border-color: #0800f7;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #ff0202;
+}
+
+.small-text {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+
+/* six month course page */
+
+.sixmonth{
+  display: inline-block;
+  padding: 20px 50px; /* Adjust the padding to your preferred size */
+  background-color: #ff0000; /* Button background color */
+  color: #ffffff; /* Text color */
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.sixmonth:hover{
+  background-color: #0202ff;
+}
+
+
+form {
+  margin: 20px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007afc;
+  position: relative;
+  padding: 20px 30px; /* Adjust padding as needed */
+  background-color: #2200ff; /* Button background color */
+  color: #fff;
+ 
+  border-radius: 30px; /* Rounded corners for buttons */
+  cursor: pointer;
+}
+
+label:hover{
+  background-color: #f90000;
+}
+
+.about{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#photo{
+  width: 500px;
+}
+
+.courses{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.cal{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.details{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.list{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+
+
+#footer a:hover {
+  color: rgb(17, 0, 255);
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
+.container {
+  margin: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.gallery{
+  margin: 10px 40px;
+}
+
+.gallery img{
+  width: 200px;
+  height: 150px;
+  transition: 1s;
+  padding: 5px;
+}
+
+.gallery img:hover{
+  filter: drop-shadow(4px 4px 6px gray);
+  transform: scale(1.1);
+}
+
+.who {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.course {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+/*FOR CONTACT PAGE*/
+.fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover{
+  opacity: 0.7;
+
+}
+.fa-facebook{
+  background-color: blue;
+  color: white;
+}
+.fa-twitter{
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram{
+  background: #C13584;
+  color: white;
+}
+
+
+
+
+.course-image{
+  width: 900px;
+  height: 500px;
+}
+
+
+
+
+.coursepage {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+  color:rgb(255, 0, 0);
+}
+
+.coursepageTitle{
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 20px;
+  
+}
+
+.coursesub{
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+
+}
