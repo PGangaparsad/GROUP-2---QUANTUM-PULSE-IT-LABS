@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/who_are_we_empowering_the_nation"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="357dp"
+        android:layout_height="236dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/empowering_the_nation_is_an_sme_that_offers_programs_to_customers_who_can_select_from_a_wide_variety_of_courses_available_from_which_customers_can_develop_or_improve_their_skills_which_can_help_them_with_setting_up_their_own_business_or_making_them_more_desirable_when_seeking_employment_empowering_the_nation_is_offering_two_sets_of_packages_of_courses_the_first_package_of_courses_can_take_over_six_weeks_to_complete_and_the_second_package_of_courses_can_take_over_six_months_to_complete"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31"
+        tools:ignore="TextSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="123dp"
+        android:layout_height="70dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/baseline_question_mark_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="345dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/precious_radebe_the_person_who_is_responsible_for_empowering_the_nation_wants_to_provide_skills_training_for_domestic_workers_and_gardeners_her_parents_and_other_elderly_relatives_were_never_given_the_chance_to_upskill_themselves_or_follow_a_formal_educational_qualification_so_this_training_school_is_her_way_of_supporting_similarly_affected_members_from_her_community"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:ignore="TextSizeCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>
